@@ -1,0 +1,38 @@
+GUI:
+  title: "&8Pets (Page #%page%)"
+  pet:
+    material: LEASH
+    name: "&fPet &e#%number%"
+    lore:
+      - "&f "
+      - "&6* &fType&7: &e%type%"
+      - "&6* &fName&7: &e%name%"
+  nopets:
+    material: BARRIER
+    name: "&cNo pets found"
+    lore: []
+  despawn:
+    material: LAVA_BUCKET
+    name: "&cDespawn pet"
+    lore: []
+  prevpage:
+    material: ARROW
+    name: "&aPrevious Page"
+    lore: []
+  nextpage:
+    material: ARROW
+    name: "&aNext Page"
+    lore: []
+messages:
+  noperm: "&cYou have no permissions to do that!"
+  unknownentity: "&cUnknown entity type!"
+  doesnthavepet: "&cThe player doesn't have this pet!"
+  unknownplayer: "&cThis player isn't online!"
+  alreadyhavepet: "&cThe player already has this pet!"
+  nodespawn: "&cThere is no pet to despawn!"
+  petspawned: "&fPet &e%name%&f has been spawned!"
+  petdespawned: "&fYour pet has been &cdespawned&f!"
+  petcreated: "&fYou have created pet &e%name% &7(%type%)&f for &e%player%&f!"
+  petcreatedother: "&fYou have got a new pet &e%name% &7(%type%)&f!"
+  petremoved: "&fYou have removed pet &e%name%&7 (%type%)&f from &e%player%&f!"
+  petcremovedother: "&fYou have lost your pet &c%name% &7(%type%)&f! &c:("

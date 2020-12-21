@@ -1,0 +1,7 @@
+name: Petstest
+version: ${project.version}
+main: mtpets.mtpets.MTPets
+commands:
+  pet:
+    aliases: [pets]
+    description: pet
